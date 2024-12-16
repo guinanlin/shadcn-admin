@@ -1,67 +1,67 @@
-# Shadcn Admin Dashboard
+# Shadcn 管理后台
 
-Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.
+使用 Shadcn 和 Vite 精心打造的管理后台 UI。专注于响应式设计和可访问性。
 
-![alt text](public/images/shadcn-admin.png)
+![界面预览](public/images/shadcn-admin.png)
 
-I've been creating dashboard UIs at work and for my personal projects. I always wanted to make a reusable collection of dashboard UI for future projects; and here it is now. While I've created a few custom components, some of the code is directly adapted from ShadcnUI examples.
+我一直在为工作和个人项目创建管理后台界面。我一直想为未来的项目制作一个可重用的管理后台 UI 集合，现在终于实现了。虽然我创建了一些自定义组件，但部分代码直接改编自 ShadcnUI 示例。
 
-> This is not a starter project (template) though. I'll probably make one in the future.
+> 这不是一个启动项目（模板）。我可能会在将来制作一个。
 
-## Features
+## 特性
 
-- Light/dark mode
-- Responsive
-- Accessible
-- With built-in Sidebar component
-- Global Search Command
-- 10+ pages
-- Extra custom components
+- 明暗主题切换
+- 响应式设计
+- 可访问性支持
+- 内置侧边栏组件
+- 全局搜索命令
+- 10+ 个页面
+- 额外的自定义组件
 
-## Tech Stack
+## 技术栈
 
-**UI:** [ShadcnUI](https://ui.shadcn.com) (TailwindCSS + RadixUI)
+**界面:** [ShadcnUI](https://ui.shadcn.com) (TailwindCSS + RadixUI)
 
-**Build Tool:** [Vite](https://vitejs.dev/)
+**构建工具:** [Vite](https://vitejs.dev/)
 
-**Routing:** [TanStack Router](https://tanstack.com/router/latest)
+**路由:** [TanStack Router](https://tanstack.com/router/latest)
 
-**Type Checking:** [TypeScript](https://www.typescriptlang.org/)
+**类型检查:** [TypeScript](https://www.typescriptlang.org/)
 
-**Linting/Formatting:** [Eslint](https://eslint.org/) & [Prettier](https://prettier.io/)
+**代码规范:** [Eslint](https://eslint.org/) & [Prettier](https://prettier.io/)
 
-**Icons:** [Tabler Icons](https://tabler.io/icons)
+**图标:** [Tabler Icons](https://tabler.io/icons)
 
-## Run Locally
+## 本地运行
 
-Clone the project
+克隆项目
 
 ```bash
   git clone https://github.com/satnaing/shadcn-admin.git
 ```
 
-Go to the project directory
+进入项目目录
 
 ```bash
   cd shadcn-admin
 ```
 
-Install dependencies
+安装依赖
 
 ```bash
   pnpm install
 ```
 
-Start the server
+启动服务器
 
 ```bash
   pnpm run dev
 ```
 
-## Author
+## 作者
 
-Crafted with 🤍 by [@satnaing](https://github.com/satnaing)
+由 [@satnaing](https://github.com/satnaing) 用 🤍 制作
 
-## License
+## 许可证
 
-Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+基于 [MIT 许可证](https://choosealicense.com/licenses/mit/)
